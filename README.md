@@ -29,11 +29,11 @@ El proceso se llevará a cabo para cada uno de los contenedores y de los campos 
 
 -**IMAGE**: Se utiliza la imagen _alpine:latest_ (distribución de Linux)
 
--**tty**:hace referencia al terminal de comunicación 
+-**TTY**:hace referencia al terminal de comunicación 
 
--**dns**:se concreta la IP asociada al servicio de DNS , en este caso el encargado de ello es el contenedor bind9.
+-**DNS**:se concreta la IP asociada al servicio de DNS , en este caso el encargado de ello es el contenedor bind9.
 
--**networks**:permite la conexión del _cliente_ a la red _bind9_, consolidando la conexión entre los dos contenedores definidos.
+-**NETWORKS**:permite la conexión del _cliente_ a la red _bind9_, consolidando la conexión entre los dos contenedores definidos.
 
 
 
