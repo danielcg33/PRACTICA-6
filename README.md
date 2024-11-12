@@ -53,22 +53,22 @@ El comando _dig_ es una herramienta empleada para la realización de consultas a
 En primer lugar para acceder al entorno  del contenedor utilizamos el comando .
 
 		
-		```docker exec -it  nombre.contenedor```
+		`docker exec -it  nombre.contenedor`
 
 
 Una vez dentro del contenedor,llevamos a cabo la actualización de repositorios y la instalación de la herramienta _dig_.Como la distribución de Linux empleada para el contenedor cliente es _Alpine_ , se hace uso del comando _apk_.
 
 
-		```apk update```
+		`apk update`
 		
-		```apk add bind-tools```
+		`apk add bind-tools`
 		
 
 
 Finalmente realizamos la consulta DNS  a través de la sintaxis. 
 
 
-		```dig@IP```
+		`dig@IP`
 		
 		
 		 			
